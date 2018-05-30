@@ -165,8 +165,9 @@ gulp.task('sw', function() {
 
 // Images
 gulp.task('img', function() {
-  return gulp.src('_img/posts/*.{png,jpg}')
-    .pipe($.responsive({
+
+  return gulp.src('assets/source_image/*.{png,jpg}')
+    .pipe($.responsive( {
       // For all the images in the folder
       '*': [{
         width: 230,
@@ -196,6 +197,7 @@ gulp.task('img', function() {
         width: 1920,
       }],
     }, {
+      errorOnEnlargement: false,
       quality: 70,
       progressive: true,
       withMetadata: false,

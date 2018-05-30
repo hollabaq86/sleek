@@ -1,7 +1,7 @@
 // General
 body {
   background-color: $bg-color;
-  font-family: $font-stack;
+  font-family: $open-sans;
   font-size: 1rem;
   line-height: 1.5;
   color: $text-color;
@@ -27,6 +27,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $courgette;
   color: $heading-color;
   margin-top: 0;
   margin-bottom: .5rem;

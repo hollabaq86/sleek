@@ -17,6 +17,10 @@ $outline: #dbdbdb;
 $grey: #838c8d;
 
 $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+$courgette: 'Courgette', cursive;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans)
+$open-sans: 'Open Sans', sans-serif;
 
 // Breakpoints
 $xs: 0;
