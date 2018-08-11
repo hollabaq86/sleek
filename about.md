@@ -25,3 +25,5 @@ permalink: /about/
 - Thanks to [flickr users here] for their photos licensed under creative commons licenses.
 
 - Thanks [link to awesome lady friend] for our kickass theme song.
+
+- Thanks [Sarah Lavere](link) for SVG Logo and Icons!
