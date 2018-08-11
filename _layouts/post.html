@@ -33,15 +33,15 @@ layout: compress
             {% assign categories = page.categories %}
           {% endif %}
           {% for category in categories %}
-            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            <a class="label" href="https://www.goodreads.com/review/list/83011054-boozin-bitchin-book-club?shelf={{category|slugize}}">{{category}}</a>
             {% unless forloop.last %}&nbsp;{% endunless %}
           {% endfor %}
         </div>
       {% endif %}
       <h1 class="hero__title">{{ page.title }}</h1>
       <p class="hero__meta">
-        <span>
           <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
+        </span>
         </span>
         <span>
             {% assign words = content | number_of_words %}
